@@ -1,39 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.geeosp.availablewidth.MainActivity">
 
+
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="560dp"
+        android:layout_height="560dp"
+        android:text="560dp"
+        android:gravity="end|bottom"
+        android:background="#446644ff"
+        />
+
+    <TextView
+        android:layout_width="480dp"
+        android:layout_height="480dp"
+        android:text="480dp"
+        android:gravity="end|bottom"
+        android:background="#446644ff"
+        />
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:text="360dp"
+        android:gravity="end|bottom"
+        android:background="#446644ff"
+        />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:text="160dp"
+        android:gravity="end|bottom"
+        android:background="#446644ff"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="100dp"
+        android:gravity="end|bottom"
+        android:background="#446644ff"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="50dp"
+        android:gravity="end|bottom"
+        android:background="#446644ff"
+        />
+
+    <TextView
         android:id="@+id/textview"
-        android:text="oi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-<TextView
-    android:layout_width="360dp"
-    android:layout_height="100dp"
-    android:text="360dp"
-    android:gravity="center"
-    android:background="#ffff22"
-
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-
-    android:id="@+id/textView" />
-    <TextView
-        android:layout_width="100px"
-        android:layout_height="100px"
-        android:text="100px"
-        android:gravity="center"
-        android:background="#ff22ff"
-
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-
-        app:layout_constraintLeft_toLeftOf="parent" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="oi" />
+</FrameLayout>
